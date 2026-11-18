@@ -4,5 +4,5 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.GITHUB_PAGES === "true" ? "/tin-hoc-lop-4/" : "/",
+  base: process.env.GITHUB_PAGES === "true" ? "/-tin-hoc-lop-4/" : "/",
 })
